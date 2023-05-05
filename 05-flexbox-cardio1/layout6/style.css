@@ -5,6 +5,9 @@
 header,
 footer {
 	background: yellowgreen;
+	height: 200px;
+	width: 100vw;
+	padding: 25px;
 }
 
 aside {
@@ -18,5 +21,26 @@ nav {
 /* -------------------------------------------- */
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
+
+.telo {
+	display:flex;
+	flex-wrap: wrap;
+}
+
+nav {
+	flex-grow: 1;
+	padding: 25px;
+}
+
+article {
+	width: 75%;
+	padding: 25px;
+	height: 650px;
+}
+
+aside {
+	flex-grow: 1;
+	padding: 25px;
+}
 
 

@@ -5,6 +5,8 @@
 header,
 footer {
 	background: yellowgreen;
+	height: 150px;
+	padding: 25px;
 }
 
 aside {
@@ -20,3 +22,23 @@ nav {
 /* -------------------------------------------- */
 
 
+.main {
+	display: flex;
+	flex direction: row;
+	height: 450px;
+}
+
+nav {
+	width: 20%;
+	padding: 25px;
+}
+
+article {
+	width: 60%;
+	padding: 25px;
+}
+
+aside {
+	width: 20%;
+	padding: 25px;
+}

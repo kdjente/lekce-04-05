@@ -5,6 +5,8 @@
 header,
 footer {
 	background: yellowgreen;
+	height: 200px;
+	padding: 25px;
 }
 
 aside {
@@ -12,7 +14,7 @@ aside {
 }
 
 nav {
-	background: lightsteelblue;
+	background: lightgreen;
 }
 
 /* -------------------------------------------- */
@@ -20,3 +22,33 @@ nav {
 /* -------------------------------------------- */
 
 
+.menu {
+	display: flex;
+}
+
+.telo {
+	display:flex;
+	flex-direction: column;
+	flex-grow: 9;
+}
+
+.main {
+	display: flex;
+	flex direction: row;
+	height: 650px;
+}
+
+nav {
+	flex-grow: 1;
+	padding: 25px;
+}
+
+article {
+	width: 75%;
+	padding: 25px;
+}
+
+aside {
+	width: 25%;
+	padding: 25px;
+}
